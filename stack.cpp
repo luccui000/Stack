@@ -95,6 +95,7 @@ int main(){
     cout << "\nAfter Pop 9 : \n";
     stk.printScreen();
     cout << "\nTop : " << stk.top();
+    cout << "\nSize : " << stk.getSize();
     cout << endl;
     return 0;
 }
